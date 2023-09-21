@@ -1,7 +1,7 @@
 from extract import users
 import openai
 
-openai.api_key = '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'
+openai.api_key = 'todo'
 model = 'gpt-3.5-turbo'
 
 def generate_ai_news(user):
