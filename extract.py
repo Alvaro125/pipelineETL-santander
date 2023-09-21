@@ -3,7 +3,6 @@ import json
 import pandas as pd
 
 sdw2023_api_url = 'https://sdw-2023-prd.up.railway.app'
-users = []
 
 df = pd.read_csv('SDW2023.csv')
 user_ids = df['UserID'].tolist()
